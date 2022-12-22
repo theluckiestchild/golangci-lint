@@ -57,3 +57,7 @@ linters:
 
 run:
   issues-exit-code: 1
+
+issues:
+  # Show only new issues created after git revision: 02270a6
+  new-from-rev: 8a84e06
