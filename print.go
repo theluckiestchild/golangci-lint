@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func printData(data interface{}) {
+func PrintData(data interface{}) {
 	ID := ""
 	s := fmt.Sprintf("data %v", data)
 	fmt.Print(s)
